@@ -143,7 +143,7 @@ ${message}`;
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <button type="button" type="button" className="bg-[#2B4C7E] cursor-pointer text-white px-7 py-4 rounded-full hover:scale-105 transition">
+            <button type="button" className="bg-[#2B4C7E] cursor-pointer text-white px-7 py-4 rounded-full hover:scale-105 transition">
               Booking Konsultasi
             </button>
 
