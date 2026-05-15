@@ -355,7 +355,7 @@ ${message}`;
               <div className="p-8">
 
                 <h3 className="text-2xl font-bold text-[#2B4C7E]">
-                  Dr. Sarah Amanda
+                  Dr. Rizka Eka Ananda Putri
                 </h3>
 
                 <p className="text-[#2B4C7E] mt-2 font-medium">
@@ -383,7 +383,7 @@ ${message}`;
               <div className="p-8">
 
                 <h3 className="text-2xl font-bold text-[#2B4C7E]">
-                  Michael Jonathan
+                  Melissa Luckyanti
                 </h3>
 
                 <p className="text-[#2B4C7E] mt-2 font-medium">
@@ -411,7 +411,7 @@ ${message}`;
               <div className="p-8">
 
                 <h3 className="text-2xl font-bold text-[#2B4C7E]">
-                  Olivia Nathania
+                  Maya Dwiayuningtiyas
                 </h3>
 
                 <p className="text-[#2B4C7E] mt-2 font-medium">
