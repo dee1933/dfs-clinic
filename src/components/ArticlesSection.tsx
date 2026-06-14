@@ -7,6 +7,7 @@ import { supabase } from "@/lib/supabase";
 interface Article {
   id: number;
   title: string;
+  slug: string;
   category: string;
   content: string;
   thumbnail?: string;

@@ -128,6 +128,8 @@ const router = useRouter();
 setContent(
   (prev) => prev + `<p><img src="${publicUrl}" /></p>`
 );
+};
+
   };
 
   // =========================
