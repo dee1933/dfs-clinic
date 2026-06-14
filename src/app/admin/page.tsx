@@ -125,12 +125,9 @@ const router = useRouter();
         .getPublicUrl(fileName);
 
       // Insert image into editor
-      const quill = quillRef.current?.getEditor();
-
-      const range = quill.getSelection();
-
-      quill.insertEmbed(range.index, "image", publicUrl);
-    };
+setContent(
+  (prev) => prev + `<p><img src="${publicUrl}" /></p>`
+);
   };
 
   // =========================
@@ -371,13 +368,12 @@ const handleLogout = async () => {
             <div className="bg-white rounded-2xl overflow-hidden">
 
               <ReactQuill
-                ref={quillRef}
-                theme="snow"
-                value={content}
-                onChange={setContent}
-                modules={modules}
-                className="min-h-[300px]"
-              />
+  theme="snow"
+  value={content}
+  onChange={setContent}
+  modules={modules}
+  className="min-h-[300px]"
+/>
 
             </div>
 
